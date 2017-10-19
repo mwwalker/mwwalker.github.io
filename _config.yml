@@ -1,5 +1,5 @@
 name: Michael Walker
 markdown: kramdown
 
-gems:
+plugins:
 - jekyll-sitemap
