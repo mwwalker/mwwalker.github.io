@@ -1,5 +1,6 @@
 name: Michael Walker
 markdown: kramdown
+timezone: America/Los_Angeles
 
 plugins:
 - jekyll-sitemap
