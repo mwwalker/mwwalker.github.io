@@ -1,0 +1,2 @@
+Change CV to be a link to a dropbox document
+Upload photo
