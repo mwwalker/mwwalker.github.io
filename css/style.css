@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Roboto Slab);
 
 body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; }
 
@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweathe
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
-.header, .footer, .header h3 { font-family: 'Lato', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
+.header, .footer, .header h3 { font-family: 'Roboto Slab', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
 
 /* Navigation */
 h3.text-muted a {text-decoration: none; color: #999999; }
