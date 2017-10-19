@@ -1,2 +1,4 @@
 Change CV to be a link to a dropbox document
 Upload photo
+Link to this page not working
+Update google scholar page and add link to my website
