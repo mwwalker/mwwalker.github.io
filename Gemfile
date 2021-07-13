@@ -28,3 +28,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Kramdown for bug fixes
 gem "kramdown", ">= 2.3.1"
+
+# Addressable bug fix
+gem "addressable", ">= 2.8.0"
+
+
