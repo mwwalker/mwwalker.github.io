@@ -33,3 +33,11 @@ gem "kramdown", ">= 2.3.1"
 gem "addressable", ">= 2.8.0"
 
 
+
+gem "webrick", "~> 1.9"
+
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.3.0"
+
+gem "bigdecimal", "~> 4.0"
