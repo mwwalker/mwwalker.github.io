@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 body { padding-top: 20px; padding-bottom: 40px; font-family: 'Raleway', Georgia, Times; font-size: 16px; }
 
@@ -31,7 +31,7 @@ img.avatar { margin-bottom: 30px; }
 .marketing p.lead { line-height: 30px; }
 
 /* Notes */
-.notelist { width: 600px; margin: 0 auto; }
+.notelist { width: 100%; max-width: 600px; margin: 0 auto; }
 ul.listnotes { margin: 0 auto; }
 ul.listnotes li {line-height: 30px; }
 
@@ -97,3 +97,11 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 
 /* Abstract style */
 .tab { margin-left: 10px; }
+
+/* Responsive */
+img { max-width: 100%; height: auto; }
+a { overflow-wrap: anywhere; }
+@media (max-width: 767px) {
+  .tab { text-align: left !important; }
+  p[style*="font-size:18px"] { font-size: 16px !important; line-height: 1.6; }
+}
