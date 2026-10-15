@@ -105,3 +105,10 @@ a { overflow-wrap: anywhere; }
   .tab { text-align: left !important; }
   p[style*="font-size:18px"] { font-size: 16px !important; line-height: 1.6; }
 }
+
+/* Stack header nav under the name on phones */
+@media (max-width: 767px) {
+  .header { display: flex; flex-direction: column-reverse; }
+  .header .nav { float: none !important; }
+  .header h3 { padding-bottom: 10px; }
+}
